@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Specific_Proj_Name&apos; to &apos;Maven_Proj_Name&apos;" description="Rename resource &apos;Specific_Proj_Name&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Specific_Proj_Name" name="Maven_Proj_Name" stamp="1641752007572" updateReferences="true"/>
+</session>

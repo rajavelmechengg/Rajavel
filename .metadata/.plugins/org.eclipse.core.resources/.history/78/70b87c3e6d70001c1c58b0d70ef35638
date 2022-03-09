@@ -1,0 +1,26 @@
+package green.Project.task;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import com.BaseClass.org.Baseclass1;
+
+public class Task_1 extends Baseclass1  {
+	
+	public static void main(String[] args) {
+		
+		getbrowser("chrome");
+		geturl("https://www.google.com/");
+		WebElement enter = driver.findElement(By.xpath("//input[@class='gLFyf gsfi']"));
+		enter.sendKeys("amazon");
+		enter.submit();
+		
+		
+		
+		
+		
+		
+	}
+	
+
+}

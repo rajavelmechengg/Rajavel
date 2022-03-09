@@ -1,0 +1,25 @@
+package green.Project.task;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import com.BaseClass.org.Baseclass1;
+
+public class Task_1 extends Baseclass1  {
+	
+	public static void main(String[] args) {
+		
+		getbrowser("chrome");
+		geturl("https://www.google.com/");
+		driver.findElement(By.xpath("//span[text()='Sign In']")).click();
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+
+}

@@ -1,0 +1,13 @@
+package TestNG_Com.MavenProject;
+
+public class Demo_TestNG_1 {
+	
+	
+	private void mobile() {
+		System.out.println("Asus");
+		
+	}
+
+	
+	
+}

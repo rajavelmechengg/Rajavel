@@ -1,0 +1,50 @@
+package com.ZafulProject;
+
+import java.util.Iterator;
+import java.util.List;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+
+import com.BaseClass.BaseClass_1;
+
+public class Practice extends BaseClass_1 {
+	public static void main(String[] args) {
+		
+		getbrowser("chrome");
+		geturl("https://www.facebook.com/r.php?locale=en_GB&display=page");
+		findelementId("day");
+		getoption("id");
+		
+	/*	Select a = new Select(elementid);
+		List<WebElement> alloption = a.getOptions();
+		int size = alloption.size();
+		System.out.println("Size of the List: "+size);
+		for (WebElement webElement : alloption) {
+			System.out.println(webElement.getText());
+			
+		}
+		
+		for (int i = 0; i < alloption.size(); i++) {
+			if (alloption.get(i).equals("40")) {
+				
+				Boolean found = true;
+				break;
+				
+			}
+			
+		}
+	*/	
+			
+		}
+		
+		
+	//	dropdown(elementid, "value", "29");
+		
+		
+		
+		
+		
+	}
+	
+	

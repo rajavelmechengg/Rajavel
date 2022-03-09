@@ -1,0 +1,6 @@
+Feature: Overall functionallity of the zaful application 
+
+Scenario: Zaful application login with valid credentials 
+Given The zaful application launched
+When The User accept the popup notification
+And The user click the login user icon

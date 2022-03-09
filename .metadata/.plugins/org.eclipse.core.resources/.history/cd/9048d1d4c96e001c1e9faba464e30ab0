@@ -1,0 +1,41 @@
+package com.BaseClass.org;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class Baseclass1 {
+	
+	public static WebDriver driver;
+	
+	public static void getbrowser(String browsername ) {
+		
+		try {
+			if (browsername.equalsIgnoreCase("chrome")) {
+				System.setProperty("webdriver.chrome.driver","C:\\Users\\Raja\\eclipse-workspace\\SeleniumProject\\Drivers\\chromedriver.exe");
+				 driver = new ChromeDriver();
+				
+				
+			}else if (browsername.equalsIgnoreCase("edge")) {
+				System.setProperty("webdriver.edge.driver","C:\\Users\\Raja\\eclipse-workspace\\SeleniumProject\\Drivers\\msedgedriver.exe");
+				 driver = new EdgeDriver();
+				
+				
+			}else {
+				System.out.println("Invalid Browser Name");
+			}
+			
+			driver.manage().window().maximize();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+	
+	
+		
+		
+	}
+
+

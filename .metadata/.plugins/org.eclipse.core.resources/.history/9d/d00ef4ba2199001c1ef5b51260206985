@@ -1,0 +1,20 @@
+package com.Zaful;
+
+import com.BaseClass.BaseClass_1;
+
+public class ZafulProject extends BaseClass_1{
+	
+	public static void main(String[] args) {
+		
+		getbrowser("chrome");
+		geturl("https://www.zaful.com/?utm_source=shareasale&AffiliateID=3012824&BannerID=677083&sscid=31k6_nug");
+		findelementXp("//a[contains(@class,'newuser-coupon-close js-close-newuser-coupon-layer logsss_event_cl')]").click();
+		findelementXp("//span[text()='Agree']").click();
+		findelementXp("//a[@class='js-topaccount-user account-user-icon logsss_event_cl']").click();
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.BaseClass.org;
+
+public class BaseClass2 extends Baseclass1 {
+	
+	public static void main(String[] args) {
+		
+		getbrowser("chrome");
+		
+		
+		
+	}
+	
+	
+	
+
+}

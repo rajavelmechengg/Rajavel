@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.ExceptionTypes.org.BoundryException&apos; to &apos;ArrayIndexoutofBoundryException&apos;&#x0D;&#x0A;- Original project: &apos;PracticeSession&apos;&#x0D;&#x0A;- Original element: &apos;com.ExceptionTypes.org.BoundryException&apos;&#x0D;&#x0A;- Renamed element: &apos;com.ExceptionTypes.org.ArrayIndexoutofBoundryException&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;BoundryException&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.ExceptionTypes.org{BoundryException.java[BoundryException" matchStrategy="1" name="ArrayIndexoutofBoundryException" qualified="false" references="true" similarDeclarations="false" stamp="1640108806219" textual="false" version="1.0"/>
+</session>
